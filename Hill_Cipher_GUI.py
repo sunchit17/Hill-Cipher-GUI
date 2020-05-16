@@ -1,9 +1,6 @@
 from tkinter import *
 from PIL import ImageTk, Image
-from sympy import Matrix
 import numpy as np
-import string
-import random
 import math
 
 root = Tk()
@@ -15,7 +12,7 @@ background_image = ImageTk.PhotoImage(Image.open("crypt.jpg"))
 background_label = Label(image=background_image,height=400,width=400)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
-credits_label = Label(text="Cryptography Assignment by Sunchit,Akshat and Saurav")
+credits_label = Label(text="Cryptography Assignment by Sunchit, Akshat and Saurav")
 credits_label.place(relx=1.0, rely=1.0, anchor='se')
 
 def pad_message(message, n):
