@@ -5,4 +5,4 @@
 - hill_cipher.py contains the actual logic of the Hill Cipher encryption/decryption
 
 
-![](Screenshot (21).png)
+![](SS.png)
